@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: /images/Metamorphosis_transparent.png
   title: "868-Ness-Dela Cruz-Kerstein-Yomogida-business"
   navbar:
     left:

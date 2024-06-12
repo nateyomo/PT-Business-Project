@@ -9,6 +9,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: services.qmd
+        text: Services
+      - href: frequently_asked_questions.qmd
+        text: FAQ
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:

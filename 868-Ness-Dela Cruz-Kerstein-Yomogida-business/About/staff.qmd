@@ -4,7 +4,7 @@ title: Staff
 
 
 # Keegan Ness DPT, CSCS
-![](/images/Keegan headshot.jpg)
+![]()
 
 - Student President of Doctor of Physical Therapy
 - D1 Soccer at Penn State

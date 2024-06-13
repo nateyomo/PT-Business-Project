@@ -4,7 +4,7 @@ project:
 
 website:
   favicon: /images/Metamorphosis_transparent.png
-  title: "868-Ness-Dela Cruz-Kerstein-Yomogida-business"
+  title: "Metamorphosis Performance & Rehabilitation Training"
   navbar:
     left:
       - href: index.qmd

@@ -4,21 +4,63 @@ title: Staff
 
 
 # Keegan Ness DPT, CSCS
-![]()
 
+::: {.columns}
+::: {.column}
+![](/images/Keegan headshot.png)
+:::
+::: {.column}
 - Student President of Doctor of Physical Therapy
 - D1 Soccer at Penn State
-- Certificied Strength and Conditioning Specialist (CSCS)
+- Certifified Strength and Conditioning Specialist (CSCS)
+:::
+:::
+
+
+
 
 
 # Cris Dela Cruz DPT
+::: {.columns}
+
+::: {.column}
 ![]()
+:::
+::: {.column}
+
+- Doctor of Physical Therapy
+- Competitive Wrestler
+- Pickleball Specialist
+
+:::
+:::
+
+
+
+
 
 # Chloë Kerstein DPT
+
+::: {.columns}
+::: {.column}
 ![]()
+:::
+::: {.column}
+- D3 Volleyball Hitter at Pomona College
+- Doctor of Physical Therapy
+:::
+:::
+
+
+
+
 
 
 # Nathaniel Yomogida DPT
 
 ![]()
+
+- Surfer
+- Muay Thai
+- 
 

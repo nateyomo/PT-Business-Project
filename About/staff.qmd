@@ -58,9 +58,14 @@ title: Staff
 
 # Nathaniel Yomogida DPT
 
+::: {.columns}
+::: {.column}
 ![]()
-
+:::
+::: {.column}
+- Doctor of Physical Therapy
 - Surfer
 - Muay Thai
-- 
-
+- Mountain Biking
+:::
+:::

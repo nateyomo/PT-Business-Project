@@ -3,13 +3,19 @@ project:
   output-dir: docs
 
 website:
-  favicon: /images/Metamorphosis_transparent.png
+  favicon: "/images/tadpole_logo.png"
   title: "Metamorphosis Performance & Rehabilitation Training"
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: About
+        menu:
+          - href: About/mission_statement.qmd
+            text: Mission Statement
+          - href: About/staff.qmd
+            text: Staff
       - href: services.qmd
         text: Services
       - href: frequently_asked_questions.qmd

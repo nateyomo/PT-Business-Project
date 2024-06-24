@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs
 
+lightbox: auto
+
 website:
   favicon: "/images/tadpole_logo.png"
   title: "Metamorphosis Performance & Rehabilitation Training"
@@ -28,6 +30,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+  #typst: default
 
 
 

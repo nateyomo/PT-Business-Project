@@ -33,34 +33,21 @@ format:
 ## Cris Dela Cruz
 ::: {.columns}
 ::: {.column}
-![](/)
+![](/images/Nate Muay thai.png)
 :::
 ::: {.column}
 
 - Doctor of Physical Therapy
 - Orthopedic Clinical Specialist
 - Certifified Strength and Conditioning Specialist (CSCS)
-- Wrestling
-- Pickleball
-- Golf (TPI Certified)
 :::
 :::
 
-## Cris Dela Cruz
-
-::: {.columns}
-::: {.column}
-![](/)
-:::
-::: {.column}
-
-
-:::
-:::
 
 ## Cris Dela Cruz
 
 :::{layout-ncol="3" layout="[70,5,25]"}
+
 ![]()
 {{< iconify fluent-emoji-high-contrast person-wrestling size=huge >}} 
 Wrestling
@@ -78,7 +65,7 @@ Pickleball
 
 ::: {.columns}
 ::: {.column}
-![](/images/Keegan headshot.png)
+![](/images/Keegan prof photo.png)
 :::
 ::: {.column}
 
@@ -117,7 +104,7 @@ Baseball
 
 - Doctor of Physical Therapy
 - Orthopedic Clinical Specialist
-- Certifified Strength and Conditioning Specialist (CSCS)
+- Certified Strength and Conditioning Specialist (CSCS)
 
 
 :::
@@ -131,10 +118,10 @@ Baseball
 Surfing
 
 ![]()
-{{< iconify mdi bike-pedal-mountain size=large >}}
+{{< iconify mdi bike-pedal-mountain size=huge >}}
 Mountain biking
 
-![]()
+![](/images/Nate Muay thai.png)
 {{< iconify mdi kickboxing size=huge >}}
 Kickboxing
 :::
@@ -152,7 +139,7 @@ Kickboxing
 
 ::: {.columns}
 ::: {.column}
-![]()
+![](/images/Chloe prof photo.png)
 :::
 ::: {.column}
 

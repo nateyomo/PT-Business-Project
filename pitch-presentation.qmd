@@ -33,7 +33,7 @@ format:
 ## Cris Dela Cruz
 ::: {.columns}
 ::: {.column}
-![](/images/Nate Muay thai.png)
+![](/images/Cris Prof photo.png)
 :::
 ::: {.column}
 
@@ -46,20 +46,33 @@ format:
 
 ## Cris Dela Cruz
 
-:::{layout-ncol="3" layout="[70,5,25]"}
+::: {.columns}
+::: {.column}
 
-![]()
+![](/images/cris golf crop.png)
+
+![](/images/cris wrestling.png)
+
+:::
+::: {.column}
+
+:::{layout-ncol="2"}
 {{< iconify fluent-emoji-high-contrast person-wrestling size=huge >}} 
 Wrestling
 
-![]()
 {{< iconify fluent-mdl2 golf size=huge >}} 
 Golf (TPI Certified)
 
-![]()
 {{< iconify mdi tennis-racket size=huge >}}
 Pickleball
 :::
+:::
+
+:::
+
+
+
+
 
 ## Keegan Ness
 
@@ -79,19 +92,33 @@ Pickleball
 
 ## Keegan Ness
 
-:::{layout-ncol="3" layout="[70,5,25]"}
-![]()
+::: {.columns}
+::: {.column}
+![](/images/Keegan soccer 1.png){width=50%}
+
+![](/images/Keegan soccer 2.png){width=50%}
+
+
+:::
+::: {.column}
+
+:::{layout-ncol="2" layout="[70,5,25]"}
 {{< iconify fluent-emoji-high-contrast soccer-ball size=huge >}} 
 D1 Midfielder at Penn State
 
-![]()
 {{< iconify fluent-mdl2 golf size=huge >}} 
 Golf (TPI Certified)
 
-![]()
 {{< iconify bxs baseball size=huge >}}
 Baseball
 :::
+
+:::
+:::
+
+
+
+
 
 
 ## Nate Yomogida

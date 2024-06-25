@@ -54,12 +54,25 @@ format:
 :::
 ::: {.column}
 
-- Wrestling
-- Pickleball
-- Golf (TPI Certified)
+
 :::
 :::
 
+## Cris Dela Cruz
+
+:::{layout-ncol="3" layout="[70,5,25]"}
+![]()
+{{< iconify fluent-emoji-high-contrast person-wrestling size=huge >}} 
+Wrestling
+
+![]()
+{{< iconify fluent-mdl2 golf size=huge >}} 
+Golf (TPI Certified)
+
+![]()
+{{< iconify mdi tennis-racket size=huge >}}
+Pickleball
+:::
 
 ## Keegan Ness
 
@@ -73,10 +86,24 @@ format:
 - Orthopedic Clinical Specialist
 - Certifified Strength and Conditioning Specialist (CSCS)
 
-{{< iconify fluent-emoji-high-contrast soccer-ball size=huge >}} D1 Soccer at Penn State
 
-{{< iconify fluent-mdl2 golf size=huge >}} Golf (TPI Certified)
 :::
+:::
+
+## Keegan Ness
+
+:::{layout-ncol="3" layout="[70,5,25]"}
+![]()
+{{< iconify fluent-emoji-high-contrast soccer-ball size=huge >}} 
+D1 Midfielder at Penn State
+
+![]()
+{{< iconify fluent-mdl2 golf size=huge >}} 
+Golf (TPI Certified)
+
+![]()
+{{< iconify bxs baseball size=huge >}}
+Baseball
 :::
 
 
@@ -98,19 +125,24 @@ format:
 
 ## Nate Yomogida
 
-::: {.columns}
-::: {.column}
+:::{layout-ncol="3" layout="[70,5,25]"}
 ![]()
-:::
-::: {.column}
+{{< iconify game-icons wave-surfer size=huge >}}
+Surfing
 
-- Surfing
-- Mountain biking
-- Kickboxing
+![]()
+{{< iconify mdi bike-pedal-mountain size=large >}}
+Mountain biking
+
+![]()
+{{< iconify mdi kickboxing size=huge >}}
+Kickboxing
+:::
 
 
-:::
-:::
+
+
+
 
 
 
@@ -134,16 +166,27 @@ format:
 
 ## Chloë Kerstein
 
-::: {.columns}
-::: {.column}
-![]()
-:::
-::: {.column}
+:::{layout-ncol="3" layout="[70,5,25]"}
 
-{{< iconify fa-solid volleyball-ball size=huge >}} NCAA D3 Volleyball
-- Running
+![]()
+
+{{< iconify fluent:run-16-filled size=huge >}}
+
+Running
+
+![]()
+
+{{< iconify fa-solid volleyball-ball size=huge >}}
+
+NCAA D3 Volleyball
+
+![]()
+
+{{< iconify game-icons tennis-racket size=huge >}}
+
+Tennis
 :::
-:::
+
 
 
 

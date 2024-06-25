@@ -1,9 +1,11 @@
 ---
-title: "Metamorphosis Performance and Rehabilitation Training"
-subtitle: adf
+title: "Metamorphosis"
+subtitle: Performance & Rehabilitation Training
 author: 
-- "Cristian Dela Cruz"
-- "Nathaniel Yomogida"
+- name: "Cristian Dela Cruz"
+- name: "Nathaniel Yomogida"
+- name: "Keegan Ness"
+- name: "Chloe Kerstein"
 format: revealjs
 ---
 

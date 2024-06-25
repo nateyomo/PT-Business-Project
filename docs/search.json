@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "frequently_asked_questions.html",
-    "href": "frequently_asked_questions.html",
-    "title": "Frequently Asked Questions (FAQs)",
+    "objectID": "out-of-network-benefits.html",
+    "href": "out-of-network-benefits.html",
+    "title": "What is Out of Network PT?",
     "section": "",
-    "text": "Do you accept my insurance?\nWe accept Medicare, Tricare/Triwest, VA, and Auto. We are out-of-network with all other plans. Please see out insurance page or call for more information\n\n\nDo I need a prescription?\nNo. In California you can see a physical therapist without a prescription unless you are treated for more than 12 visits or 45 days\n\n\nDo I Need Exercise Equipment?\nMost treatment will take place in the home, office, or a gym. Oftentimes, minimal additional equipment is needed to achieve your goals. In the case that you do require specific equipment for your individual treatment, it will be provided by your physical therapist.\n\n\nWhere will we meet?\nWe can meet in your home, office, gym (if permissible), football field, track, the beach, or wherever you may need (given it is geographically feasible). We make our treatment location as convenient and easy to accommodate your specific needs.\n\n\nWhat Payment do you Accept\nCash, Credit, Check, Debit, Venmo, and Paypal.\n\n\nWhat Should I Wear?\nLoose fitting, comfortable gym clothes and athletic shoes.\n\n\nHow many sessions will I need to get better?\nIt depends. Every case is individual and will get a personalized treatment approach. Estimates can be made over the phone; however, a full examination will provide a more accurate prognosis. In general, patients that receive individualized 1-on-1 care tend to recover much quicker than those that do not!"
+    "text": "Travel Time\nSave time by avoiding the commute to a physical therapy clinic!\n\n\n\n\n\n\nIn-network PT\n15-25 min or more"
   },
   {
     "objectID": "index.html",
@@ -42,13 +42,6 @@
     "text": "Nathaniel Yomogida"
   },
   {
-    "objectID": "out-of-network-benefits.html",
-    "href": "out-of-network-benefits.html",
-    "title": "What is Out of Network PT?",
-    "section": "",
-    "text": "Travel Time\nSave time by avoiding the commute to a physical therapy clinic!\n\n\n\nIn-network PT\n15-25 min or more"
-  },
-  {
     "objectID": "About/staff.html",
     "href": "About/staff.html",
     "title": "Staff",
@@ -61,6 +54,13 @@
     "title": "About Us",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "frequently_asked_questions.html",
+    "href": "frequently_asked_questions.html",
+    "title": "Frequently Asked Questions (FAQs)",
+    "section": "",
+    "text": "Do you accept my insurance?\nWe accept Medicare, Tricare/Triwest, VA, and Auto. We are out-of-network with all other plans. Please see out insurance page or call for more information\n\n\nDo I need a prescription?\nNo. In California you can see a physical therapist without a prescription unless you are treated for more than 12 visits or 45 days\n\n\nDo I Need Exercise Equipment?\nMost treatment will take place in the home, office, or a gym. Oftentimes, minimal additional equipment is needed to achieve your goals. In the case that you do require specific equipment for your individual treatment, it will be provided by your physical therapist.\n\n\nWhere will we meet?\nWe can meet in your home, office, gym (if permissible), football field, track, the beach, or wherever you may need (given it is geographically feasible). We make our treatment location as convenient and easy to accommodate your specific needs.\n\n\nWhat Payment do you Accept\nCash, Credit, Check, Debit, Venmo, and Paypal.\n\n\nWhat Should I Wear?\nLoose fitting, comfortable gym clothes and athletic shoes.\n\n\nHow many sessions will I need to get better?\nIt depends. Every case is individual and will get a personalized treatment approach. Estimates can be made over the phone; however, a full examination will provide a more accurate prognosis. In general, patients that receive individualized 1-on-1 care tend to recover much quicker than those that do not!"
   },
   {
     "objectID": "insurance.html",

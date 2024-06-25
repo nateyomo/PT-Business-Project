@@ -1,16 +1,22 @@
 ---
 title: "Metamorphosis"
 subtitle: Performance & Rehabilitation Training
+
 author: 
 - name: "Cristian Dela Cruz"
 - name: "Nathaniel Yomogida"
 - name: "Keegan Ness"
-- name: "Chloe Kerstein"
-format: revealjs
+- name: "Chloë Kerstein"
+format:
+    revealjs:
+        logo: "/images/output-onlinepngtools.png"
+        css: logo.css
 ---
 
 
+
 # Business Description
+
 
 ## Servicing Western SD 
 
@@ -22,13 +28,38 @@ format: revealjs
 - S&C IPP
 - Social media
 
-# Owners
+# Partners
 
 ## Cris Dela Cruz
-DPT, CSCS, OCS, TPI
-Pickleball
-Golf
-Wrestling
+::: {.columns}
+::: {.column}
+![](/)
+:::
+::: {.column}
+
+- Doctor of Physical Therapy
+- Orthopedic Clinical Specialist
+- Certifified Strength and Conditioning Specialist (CSCS)
+- Wrestling
+- Pickleball
+- Golf (TPI Certified)
+:::
+:::
+
+## Cris Dela Cruz
+
+::: {.columns}
+::: {.column}
+![](/)
+:::
+::: {.column}
+
+- Wrestling
+- Pickleball
+- Golf (TPI Certified)
+:::
+:::
+
 
 ## Keegan Ness
 
@@ -41,8 +72,10 @@ Wrestling
 - Doctor of Physical Therapy
 - Orthopedic Clinical Specialist
 - Certifified Strength and Conditioning Specialist (CSCS)
-- D1 Soccer at Penn State
-- Golf (TPI Certified)
+
+{{< iconify fluent-emoji-high-contrast soccer-ball size=huge >}} D1 Soccer at Penn State
+
+{{< iconify fluent-mdl2 golf size=huge >}} Golf (TPI Certified)
 :::
 :::
 
@@ -63,7 +96,7 @@ Wrestling
 :::
 :::
 
----
+## Nate Yomogida
 
 ::: {.columns}
 ::: {.column}
@@ -84,8 +117,35 @@ Wrestling
 
 
 ## Chloë Kerstein
-DPT, CSCS, OCS
-Volleyball
-Running
+
+::: {.columns}
+::: {.column}
+![]()
+:::
+::: {.column}
+
+- Doctor of Physical Therapy
+- Orthopedic Clinical Specialist
+- Certifified Strength and Conditioning Specialist (CSCS)
+
+
+:::
+:::
+
+## Chloë Kerstein
+
+::: {.columns}
+::: {.column}
+![]()
+:::
+::: {.column}
+
+{{< iconify fa-solid volleyball-ball size=huge >}} NCAA D3 Volleyball
+- Running
+:::
+:::
+
+
+
 
 

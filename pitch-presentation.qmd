@@ -11,3 +11,81 @@ format: revealjs
 
 
 # Business Description
+
+## Servicing Western SD 
+
+<iframe src="https://www.google.com/maps/d/u/3/embed?mid=1s1NrebBPb0oJyo0ji81w30gGncVV2Hs&ehbc=2E312F&noprof=1" width="100%" height="80%"></iframe>
+
+# Marketing
+
+- Free injury screening
+- S&C IPP
+- Social media
+
+# Owners
+
+## Cris Dela Cruz
+DPT, CSCS, OCS, TPI
+Pickleball
+Golf
+Wrestling
+
+## Keegan Ness
+
+::: {.columns}
+::: {.column}
+![](/images/Keegan headshot.png)
+:::
+::: {.column}
+
+- Doctor of Physical Therapy
+- Orthopedic Clinical Specialist
+- Certifified Strength and Conditioning Specialist (CSCS)
+- D1 Soccer at Penn State
+- Golf (TPI Certified)
+:::
+:::
+
+
+## Nate Yomogida
+
+::: {.columns}
+::: {.column}
+![]()
+:::
+::: {.column}
+
+- Doctor of Physical Therapy
+- Orthopedic Clinical Specialist
+- Certifified Strength and Conditioning Specialist (CSCS)
+
+
+:::
+:::
+
+---
+
+::: {.columns}
+::: {.column}
+![]()
+:::
+::: {.column}
+
+- Surfing
+- Mountain biking
+- Kickboxing
+
+
+:::
+:::
+
+
+
+
+
+## Chloë Kerstein
+DPT, CSCS, OCS
+Volleyball
+Running
+
+

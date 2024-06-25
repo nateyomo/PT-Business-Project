@@ -8,14 +8,17 @@
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.555">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.45">
 
   <meta name="author" content="Cristian Dela Cruz">
   <meta name="author" content="Nathaniel Yomogida">
   <meta name="author" content="Keegan Ness">
   <meta name="author" content="Chloe Kerstein">
-  <title>Metamorphosis Performance &amp; Rehabilitation Training - Metamorphosis</title>
+  <title>Metamorphosis Performance &amp; Rehabilitation Training – Metamorphosis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -360,15 +363,88 @@ Chloe Kerstein
 </div>
 
 </section>
+<section>
 <section id="business-description" class="title-slide slide level1 center">
 <h1>Business Description</h1>
+
+</section>
+<section id="servicing-western-sd" class="slide level2">
+<h2>Servicing Western SD</h2>
+<iframe src="https://www.google.com/maps/d/u/3/embed?mid=1s1NrebBPb0oJyo0ji81w30gGncVV2Hs&amp;ehbc=2E312F&amp;noprof=1" width="100%" height="80%">
+</iframe>
+</section></section>
+<section id="marketing" class="title-slide slide level1 center">
+<h1>Marketing</h1>
+<ul>
+<li>Free injury screening</li>
+<li>S&amp;C IPP</li>
+<li>Social media</li>
+</ul>
+</section>
+
+<section>
+<section id="owners" class="title-slide slide level1 center">
+<h1>Owners</h1>
+
+</section>
+<section id="cris-dela-cruz" class="slide level2">
+<h2>Cris Dela Cruz</h2>
+<p>DPT, CSCS, OCS, TPI Pickleball Golf Wrestling</p>
+</section>
+<section id="keegan-ness" class="slide level2">
+<h2>Keegan Ness</h2>
+<div class="columns">
+<div class="column">
+<p><a href="./images/Keegan headshot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="./images/Keegan headshot.png"></a></p>
+</div><div class="column">
+<ul>
+<li>Doctor of Physical Therapy</li>
+<li>Orthopedic Clinical Specialist</li>
+<li>Certifified Strength and Conditioning Specialist (CSCS)</li>
+<li>D1 Soccer at Penn State</li>
+<li>Golf (TPI Certified)</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="nate-yomogida" class="slide level2">
+<h2>Nate Yomogida</h2>
+<div class="columns">
+<div class="column">
+<p><a href=".png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src=".png"></a></p>
+</div><div class="column">
+<ul>
+<li>Doctor of Physical Therapy</li>
+<li>Orthopedic Clinical Specialist</li>
+<li>Certifified Strength and Conditioning Specialist (CSCS)</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column">
+<p><a href=".png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src=".png"></a></p>
+</div><div class="column">
+<ul>
+<li>Surfing</li>
+<li>Mountain biking</li>
+<li>Kickboxing</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="chloë-kerstein" class="slide level2">
+<h2>Chloë Kerstein</h2>
+<p>DPT, CSCS, OCS Volleyball Running</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -611,18 +687,7 @@ Chloe Kerstein
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -654,7 +719,29 @@ Chloe Kerstein
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -662,7 +749,7 @@ Chloe Kerstein
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
@@ -755,6 +842,38 @@ Chloe Kerstein
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>
